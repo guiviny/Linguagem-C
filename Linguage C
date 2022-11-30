@@ -1,14 +1,11 @@
 #include <stdio.h>
-
+//FUNÇÃO CRIADA
 int calculo_fatorial(int valor){
 
 if(valor <= 1) 
 	return(1);
 else 
 	return valor * calculo_fatorial(valor - 1);
-
-
-
 }
 
 
@@ -17,7 +14,7 @@ int num, resposta;
 	printf("Digite um numero que ira ser calculado de forma fatorial: ");
 	scanf("%i",&num);	
 	
-	resposta = calculo_fatorial(num);
+	resposta = calculo_fatorial(num); //CHAMANDO A FUNÇÃO CRIADA NA LINHA 
 	
 	printf("Resposta FATORIAL: %i",resposta);
 }
