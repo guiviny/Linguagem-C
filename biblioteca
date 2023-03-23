@@ -1,0 +1,9 @@
+void escolhepalavra();
+void desenhaforca();
+int jachutou(char letra);
+void chuta();
+void abertura();
+int ganhou();
+int enforcou();
+void adicionapalavra();
+int chuteserrados();
