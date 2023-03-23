@@ -1,0 +1,4 @@
+4           //Na primeira linha adicione um número que vai indicar a quantidade de palavras.
+LARANJA
+UVA
+MELANCIA    //Depois desse trecho de código, o programa vai incremetar automaticamente as frutas que você quiser incrementar no arquivo "txt".
