@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "fun.h"
+#include "fun.h" \\Essa biblioteca serve para guardadr todas as funções do jogo a baixo.
 
 
 char palavrasecreta[20];
@@ -27,7 +27,7 @@ int chuteserrados(){
 
         if(!existe) erros++;
     }
-
+    //retorna a quantidades de erros.
     return erros;
 
 }
@@ -49,7 +49,7 @@ int enforcou() {
 
         if(!existe) erros++;
     }
-
+    //Se a quantidade de erros for maior que 5 essa função vai retornar true e o jogo vai se encerrar.
     return erros >= 5;
 }
 
@@ -193,7 +193,7 @@ int main() {
 
         desenhaforca();
         chuta();
-		desenha();
+	desenha();
     } while (!ganhou() && !enforcou());
     
     if(ganhou()){
