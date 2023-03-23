@@ -111,7 +111,7 @@ void desenhaforca() {
 void escolhepalavra() {
     FILE* f;
 
-    f = fopen("C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\PRO C\\palavras.txt", "r");
+    f = fopen("palavras.txt", "r");
     if(f == 0) {
         printf("Banco de dados de palavras não disponível\n\n");
         exit(1);
@@ -141,7 +141,7 @@ void adicionapalavra(){
 		scanf("%s",&novaPalavra);
 		
 		FILE* f;
-		f = fopen("C:\\Users\\Pichau\\OneDrive\\Área de Trabalho\\PRO C\\palavras.txt","r+");
+		f = fopen("palavras.txt","r+");
 		
 		if(f == 0){
 			printf("Erro ao adicinoar uma palavra!");
