@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <time.h>
-#include "fun.h" \\Essa biblioteca serve para guardadr todas as funções do jogo.
+#include "fun.h" \\Essa biblioteca serve para guardadar todas as funções do jogo.
 
 
 char palavrasecreta[20];
